@@ -33,7 +33,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = [env('PROD_URL'), env('LOCALHOST'), env('HOME'),]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://whispering-bayou-34998.herokuapp.com/']
 
 # Application definition
 
