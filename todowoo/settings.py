@@ -21,9 +21,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$bp1uqbropf2u!=%3y!e6!(5&t0*oec=93)fiose261w8w5b)u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',
+                 'https://whispering-bayou-34998.herokuapp.com/']
 
 # Application definition
 
