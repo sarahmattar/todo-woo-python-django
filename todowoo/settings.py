@@ -33,8 +33,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = [env('LOCALHOST'), env('HOME'),
-                 env('ROOT_URL'), ]
+ALLOWED_HOSTS = [env('PROD_URL'), env('LOCALHOST'), env('HOME'),]
 
 # Application definition
 
