@@ -31,9 +31,12 @@ Installation requires you to have Python 3.8 and Django 3 installed.
 Install and create a virtual environment using virtualenv: 
 
 `pip install virtualenv `
+
 `virtualenv todowoo-env`
 
-Install the requirements: `pip install requirements.txt`
+Install the requirements: 
+
+`pip install requirements.txt`
 
 You should be good to go! 
 
