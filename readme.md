@@ -34,9 +34,13 @@ Install and create a virtual environment using virtualenv:
 
 `virtualenv todowoo-env`
 
+(If, for some reason, your virtual environment doesn't get activated when it is created, or you get interrupted/close terminal windows/etc., you can run `source todo woo-env/bin/activate` from the same command line to reactivate it.)
+
+Once inside the virtual environement, to deactivate it, simply type `deactivate`.
+
 Install the requirements: 
 
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 
 You should be good to go! 
 
