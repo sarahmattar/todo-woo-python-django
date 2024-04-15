@@ -11,6 +11,6 @@ mccabe==0.6.1
 psycopg2==2.8.6
 pytz==2021.1
 six==1.15.0
-sqlparse==0.4.4
+sqlparse==0.5.0
 whitenoise==5.2.0
 wrapt==1.12.1
